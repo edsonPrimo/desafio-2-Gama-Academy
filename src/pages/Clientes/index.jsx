@@ -9,7 +9,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import {Container, Button} from '@material-ui/core'
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 
 
 function Clientes() {

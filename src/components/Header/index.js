@@ -32,7 +32,7 @@ const Item = styled.li`
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 `
 const Lista = styled.ul`

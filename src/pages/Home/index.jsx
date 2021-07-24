@@ -1,20 +1,21 @@
 import React from 'react';
-import logo from '../../assets/images/Pimentas/logo_rotulo-edit.png'
+import logo from '../../assets/images/Pimentas/logo-rotulo.png'
 import styled from 'styled-components';
-import { cor4 } from '../../components/UI/variaveis';
+import { cor2 } from '../../components/UI/variaveis';
 
 const Main = styled.main`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #1d1c1cd4;
+  background: #272626;
   padding: 2rem;
-  height: 50vh;
+  height: 40vh;
   margin-top: 3rem;
 
   & h1 {
+    text-align: center;
     width: 60%;
-    color: ${cor4};
+    color: ${cor2};
   }
 `
 function Home() {
@@ -22,7 +23,7 @@ function Home() {
    
     <Main>
         <img src={logo} alt='rotulo com o logo' width='250px'/>
-        <h1> Acesso ao inventário da sgt. Peppers. Navegue pelo cabeçalho</h1>
+        <h1> Acesso ao inventário da Sgt. Peppers.</h1>
 
     </Main>
     

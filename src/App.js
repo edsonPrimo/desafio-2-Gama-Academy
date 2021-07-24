@@ -7,6 +7,7 @@ import Clientes from "./pages/Clientes";
 import ProdutosHandle from "./pages/ProdutosHandle";
 import Produtos from "./pages/Produtos";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Produtos/>
           </Route>
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
