@@ -1,0 +1,5 @@
+export const cor1 = '#F2C2C6'
+export const cor2 = '#D9435F'
+export const cor3 = '#8BA651'
+export const cor4 = '#BF6969'
+export const cor5 = '#0D0D0D'
